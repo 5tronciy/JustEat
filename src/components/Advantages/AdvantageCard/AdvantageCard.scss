@@ -1,0 +1,33 @@
+.advantage {
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 60px;
+
+  &__icon {
+    height: 100px;
+    margin-bottom: 36px;
+  }
+
+  &__title {
+    font-family: "Sharp Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+
+    color: #181d19;
+    margin-bottom: 18px;
+  }
+
+  &__description {
+    font-family: "Sharp Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #39463f;
+  }
+}

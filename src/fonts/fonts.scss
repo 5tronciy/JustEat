@@ -11,3 +11,10 @@
     url("./fonts/Sharp/SharpSansBold.otf") format("opentype");
   font-weight: bold;
 }
+
+@font-face {
+  font-family: "Sofia Pro";
+  src: local("Sofia Pro"),
+    url("./fonts/SofiaPro/sofiapro-light.otf") format("opentype");
+  font-weight: normal;
+}
