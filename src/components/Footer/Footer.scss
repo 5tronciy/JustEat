@@ -1,0 +1,68 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+
+  .content {
+    padding: 120px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+
+    .company {
+      flex: 2;
+      padding-right: 30px;
+
+      .logo {
+        margin-bottom: 34px;
+        cursor: pointer;
+      }
+      .slogan {
+        font-family: "Sharp Sans";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #657582;
+      }
+    }
+    .section {
+      flex: 1;
+
+      &__head {
+        font-family: "Sharp Sans";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 28px;
+        color: #2c3847;
+        margin-bottom: 20px;
+        cursor: pointer;
+      }
+
+      &__item {
+        font-family: "Sharp Sans";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #657582;
+        margin-bottom: 12px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .copyright {
+    width: 100%;
+    padding: 20px;
+    background: linear-gradient(180deg, #64bb47 0%, #2c9553 100%);
+    font-family: "Sharp Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+  }
+}

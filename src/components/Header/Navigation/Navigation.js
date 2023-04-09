@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "@mui/material-next/Button";
 import "./Navigation.scss";
-import Logo from "./assets/logo.svg";
+import Logo from "../../../assets/logo.svg";
 import SearchIcon from "./assets/SEARCH.svg";
 import CartIcon from "./assets/shopping-cart.svg";
 
