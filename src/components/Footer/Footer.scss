@@ -54,7 +54,7 @@
   }
 
   .copyright {
-    width: 100%;
+    width: calc(100% - 40px);
     padding: 20px;
     background: linear-gradient(180deg, #64bb47 0%, #2c9553 100%);
     font-family: "Sharp Sans";
