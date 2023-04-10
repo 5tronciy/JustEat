@@ -4,6 +4,7 @@
   margin-bottom: 120px;
   display: flex;
   gap: 95px;
+  flex-wrap: wrap;
 
   @media (max-width: 767px) {
     padding: 0;
@@ -57,9 +58,13 @@
 
   .image {
     flex: 1;
+    display: flex;
+    justify-content: center;
 
-    @media (max-width: 1440px) {
-      display: none;
+    img {
+      @media (max-width: 767px) {
+        width: 90vw;
+      }
     }
   }
 }
