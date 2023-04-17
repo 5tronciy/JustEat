@@ -5,8 +5,6 @@ run-name: Build by @${{ github.actor }}
 on:
   push:
     branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
 
 jobs:
   build:
@@ -19,7 +17,16 @@ jobs:
         with:
           node-version: '18'
 
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v3
+
       - name: Build
         run: |
           npm install
           npx webpack
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: ./build
