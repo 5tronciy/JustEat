@@ -1,16 +1,8 @@
 const path = require("path");
-const webpack = require("webpack");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-  mode: "development",
   entry: "./src/index.js",
-  devServer: {
-    hot: true,
-    open: true,
-  },
   output: {
-    publicPath: "/",
     path: path.resolve(__dirname, "build"),
     filename: "bundled.js",
   },
@@ -39,5 +31,4 @@ module.exports = {
       },
     ],
   },
-  plugins: [new HtmlWebpackPlugin(), new webpack.HotModuleReplacementPlugin()],
 };
