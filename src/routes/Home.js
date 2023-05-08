@@ -5,6 +5,7 @@ import Advantages from "../components/Advantages/Advantages";
 import About from "../components/About/About";
 import Fresh from "../components/Fresh/Fresh";
 import Chef from "../components/Chef/Chef";
+import Offer from "../components/Offer/Offer";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <About />
       <Fresh />
       <Chef />
+      <Offer />
       <Footer />
     </>
   );

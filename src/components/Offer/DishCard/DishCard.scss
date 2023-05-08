@@ -1,0 +1,35 @@
+.dish {
+  width: 294px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 32px;
+
+  &__image {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 27px;
+  }
+
+  &__name {
+    font-family: "Sharp Sans";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    color: #181d19;
+    margin-bottom: 20px;
+  }
+
+  &__description {
+    font-family: "Sharp Sans No1";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #3b433e;
+  }
+}
