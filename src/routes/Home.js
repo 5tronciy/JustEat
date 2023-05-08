@@ -6,6 +6,7 @@ import About from "../components/About/About";
 import Fresh from "../components/Fresh/Fresh";
 import Chef from "../components/Chef/Chef";
 import Offer from "../components/Offer/Offer";
+import Feedback from "../components/Feedback/Feedback";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Fresh />
       <Chef />
       <Offer />
+      <Feedback />
       <Footer />
     </>
   );
