@@ -1,5 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
+import useWindowDimensions from "../../hooks/useWindowDimensions";
 import Review from "./Review/Review";
 import avatar1 from "./assets/avatar1.png";
 import avatar2 from "./assets/avatar2.png";
@@ -34,20 +35,20 @@ const testimonials = [
   },
 ];
 
-const sliderSettings = {
-  dots: true,
-  infinite: false,
-  slidesToShow: 2,
-  slidesToScroll: 1,
-};
-
 const Feedback = () => {
+  const { _, width } = useWindowDimensions();
+
   return (
     <div className="feedback__wrapper">
       <div className="feedback__content">
         <div className="feedback__title">Happy Clients Says</div>
         <div className="feedback__carousel">
-          <Slider {...sliderSettings}>
+          <Slider
+            dots={true}
+            infinite={false}
+            slidesToShow={width > 767 ? 2 : 1}
+            slidesToScroll={1}
+          >
             {testimonials.map((item) => (
               <Review
                 key={item.id}
