@@ -27,6 +27,7 @@
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "css-loader": "^6.7.3",
     "html-webpack-plugin": "^5.5.0",
+    "imagemin-avif-webpack-plugin": "^0.0.4",
     "mini-css-extract-plugin": "^2.7.5",
     "sass": "^1.60.0",
     "sass-loader": "^13.2.2",

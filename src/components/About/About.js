@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "@mui/material-next/Button";
+import Image from "../common/Image";
 import "./About.scss";
 import image1 from "./assets/Image 01.png";
 import image2 from "./assets/Image 02.png";
@@ -27,10 +28,10 @@ const About = () => {
       </div>
       <div className="images">
         <div className="column">
-          <img className="images__item" src={image1} alt="" />
-          <img className="images__item" src={image2} alt="" />
+          <Image className="images__item" src={image1} alt="" />
+          <Image className="images__item" src={image2} alt="" />
         </div>
-        <img className="images__item--shifted" src={image3} alt="" />
+        <Image className="images__item--shifted" src={image3} alt="" />
       </div>
     </div>
   );

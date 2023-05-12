@@ -1,13 +1,14 @@
 import React from "react";
 import Button from "@mui/material-next/Button";
-import "./Fresh.scss";
+import Image from "../common/Image";
 import image from "./assets/Group 4114.png";
+import "./Fresh.scss";
 
 const Fresh = () => {
   return (
     <div className="fresh">
       <div className="image">
-        <img src={image} alt="" />
+        <Image src={image} alt="" />
       </div>
       <div className="content">
         <div className="content__container">

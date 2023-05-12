@@ -1,7 +1,8 @@
 import React from "react";
-import "./Chef.scss";
+import Image from "../common/Image";
 import image from "./assets/Image & bg elements.png";
 import check from "./assets/check mark.svg";
+import "./Chef.scss";
 
 const Chef = () => {
   return (
@@ -36,7 +37,7 @@ const Chef = () => {
         </div>
       </div>
       <div className="image">
-        <img src={image} alt="" />
+        <Image src={image} alt="" />
       </div>
     </div>
   );

@@ -1,4 +1,5 @@
 const path = require("path");
+const ImageminAvifWebpackPlugin = require("imagemin-avif-webpack-plugin");
 
 module.exports = {
   entry: "./src/index.js",
@@ -31,4 +32,5 @@ module.exports = {
       },
     ],
   },
+  plugins: [new ImageminAvifWebpackPlugin()],
 };

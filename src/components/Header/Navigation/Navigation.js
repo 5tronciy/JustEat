@@ -9,11 +9,9 @@ const Navitagion = () => {
   return (
     <div className="navigation__wrapper">
       <div className="navigation">
-        {/* <Logo /> */}
         <div className="logo">
           <img src={Logo} alt="JustEat" />
         </div>
-        {/* <Menu /> */}
         <div className="menu">
           <div className="menu__item">Home</div>
           <div className="menu__item">About</div>
@@ -21,7 +19,6 @@ const Navitagion = () => {
           <div className="menu__item">Testimonials</div>
         </div>
         <div className="right-side">
-          {/* <Icons /> */}
           <div className="icons">
             <div className="icons__item">
               <img src={SearchIcon} alt="Search" />
@@ -30,7 +27,6 @@ const Navitagion = () => {
               <img src={CartIcon} alt="Cart" />
             </div>
           </div>
-          {/* <OrderButton /> */}
           <div className="button-wrapper">
             <Button color="secondary" size="large" variant="filled">
               Order Now
