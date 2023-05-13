@@ -5,5 +5,7 @@ import "normalize.css";
 
 document.body.innerHTML = '<div id="root"></div>';
 
+import "./utils/addImageClass";
+
 const root = createRoot(document.getElementById("root"));
 root.render(<App />);
