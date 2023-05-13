@@ -13,5 +13,10 @@ module.exports = merge(common, {
   output: {
     publicPath: "/",
   },
-  plugins: [new HtmlWebpackPlugin(), new webpack.HotModuleReplacementPlugin()],
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: "src/index.html",
+    }),
+    new webpack.HotModuleReplacementPlugin(),
+  ],
 });
