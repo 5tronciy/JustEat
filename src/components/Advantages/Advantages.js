@@ -35,7 +35,7 @@ const stats = [
 
 const Advantages = () => {
   return (
-    <div className="advantages__wrapper">
+    <div className="advantages__wrapper" role="complementary">
       <div className="advantages__content">
         <div className="title">Why Choose US?</div>
         <div className="description">

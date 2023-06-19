@@ -8,7 +8,7 @@ import image3 from "./assets/Image 03.png";
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" role="complementary">
       <div className="content">
         <div className="content__container">
           <div className="title">About US</div>

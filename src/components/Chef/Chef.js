@@ -6,7 +6,7 @@ import "./Chef.scss";
 
 const Chef = () => {
   return (
-    <div className="chef">
+    <div className="chef" role="complementary">
       <div className="content">
         <div className="content__container">
           <div className="title">Cooked by the Best Chefs</div>

@@ -32,7 +32,7 @@ const offers = [
 
 const Offer = () => {
   return (
-    <div className="offer__wrapper">
+    <div className="offer__wrapper" role="complementary">
       <div className="offer__content">
         <div className="offer__title">Special Dishes for you</div>
         <div className="offer__description">

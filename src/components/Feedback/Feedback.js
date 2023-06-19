@@ -39,7 +39,7 @@ const Feedback = () => {
   const { _, width } = useWindowDimensions();
 
   return (
-    <div className="feedback__wrapper">
+    <div className="feedback__wrapper" role="complementary">
       <div className="feedback__content">
         <div className="feedback__title">Happy Clients Says</div>
         <div className="feedback__carousel">

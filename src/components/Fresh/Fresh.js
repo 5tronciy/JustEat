@@ -6,7 +6,7 @@ import "./Fresh.scss";
 
 const Fresh = () => {
   return (
-    <div className="fresh">
+    <div className="fresh" role="complementary">
       <div className="image">
         <Image src={image} alt="" />
       </div>
