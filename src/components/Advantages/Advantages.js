@@ -35,9 +35,9 @@ const stats = [
 
 const Advantages = () => {
   return (
-    <div className="advantages__wrapper" role="complementary">
+    <div className="advantages__wrapper" role="complementary" aria-labelledby="advantages-title">
       <div className="advantages__content">
-        <div className="title">Why Choose US?</div>
+        <div id="advantages-title" className="title">Why Choose US?</div>
         <div className="description">
           Organic food is grown without the use of synthetic chemicals
         </div>

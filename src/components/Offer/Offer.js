@@ -32,9 +32,9 @@ const offers = [
 
 const Offer = () => {
   return (
-    <div className="offer__wrapper" role="complementary">
+    <div className="offer__wrapper" role="complementary" aria-labelledby="offer-title">
       <div className="offer__content">
-        <div className="offer__title">Special Dishes for you</div>
+        <div id="offer-title" className="offer__title">Special Dishes for you</div>
         <div className="offer__description">
           Made with premium & 100% Organic ingredients
         </div>

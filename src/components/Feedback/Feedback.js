@@ -39,9 +39,9 @@ const Feedback = () => {
   const { _, width } = useWindowDimensions();
 
   return (
-    <div className="feedback__wrapper" role="complementary">
+    <div className="feedback__wrapper" role="complementary" aria-labelledby="feedback-title">
       <div className="feedback__content">
-        <div className="feedback__title">Happy Clients Says</div>
+        <div id="feedback-title" className="feedback__title">Happy Clients Says</div>
         <div className="feedback__carousel">
           <Slider
             dots={true}

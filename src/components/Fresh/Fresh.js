@@ -6,13 +6,13 @@ import "./Fresh.scss";
 
 const Fresh = () => {
   return (
-    <div className="fresh" role="complementary">
+    <div className="fresh" role="complementary" aria-labelledby="fresh-title">
       <div className="image">
         <Image src={image} alt="" />
       </div>
       <div className="content">
         <div className="content__container">
-          <div className="title">Fresh Vegetables Every Day</div>
+          <div id="fresh-title" className="title">Fresh Vegetables Every Day</div>
           <div className="description">
             Healthy life as informed declared we enjoy the margaret. Joy
             horrible moreover man feelings own shy. Request norland neither

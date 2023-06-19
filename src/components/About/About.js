@@ -8,10 +8,10 @@ import image3 from "./assets/Image 03.png";
 
 const About = () => {
   return (
-    <div className="about" role="complementary">
+    <div className="about" role="complementary" aria-labelledby="about-title">
       <div className="content">
         <div className="content__container">
-          <div className="title">About US</div>
+          <div id="about-title" className="title">About US</div>
           <div className="description">
             Organic food is grown without the use of synthetic chemicals, such
             as human-made pesticides and fertilizers, and does not contain

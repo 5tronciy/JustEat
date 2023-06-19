@@ -6,10 +6,10 @@ import "./Chef.scss";
 
 const Chef = () => {
   return (
-    <div className="chef" role="complementary">
+    <div className="chef" role="complementary" aria-labelledby="chef-title">
       <div className="content">
         <div className="content__container">
-          <div className="title">Cooked by the Best Chefs</div>
+          <div id="chef-title" className="title">Cooked by the Best Chefs</div>
           <div className="description">
             Believing neglected so so allowance existence departure in. In
             design active temper be uneasy. Thirty for remove plenty regard you
