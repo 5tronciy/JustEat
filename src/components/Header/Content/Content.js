@@ -4,12 +4,12 @@ import "./Content.scss";
 
 const Content = () => {
   return (
-    <div className="content__wrapper">
+    <main role="main" className="content__wrapper">
       <div className="content__block">
         <div className="title">
-          <div className="title__row">
+          <h1 className="title__row">
             Just <span className="title__row--primary-color">Eat healthy</span>
-          </div>
+          </h1>
           <div className="title__row">food to live a</div>
           <div className="title__row">healthier life</div>
         </div>
@@ -24,7 +24,7 @@ const Content = () => {
           </Button>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 

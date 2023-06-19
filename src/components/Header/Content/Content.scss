@@ -32,14 +32,17 @@
     }
 
     .title {
-      font-family: "Sharp Sans";
-      font-style: normal;
-      font-weight: bold;
-      font-size: 76px;
-      line-height: 95px;
-      color: #181d19;
       margin-bottom: 30px;
+      
       &__row {
+        font-family: "Sharp Sans";
+        font-style: normal;
+        line-height: 95px;
+        color: #181d19;
+        font-weight: bold;
+        font-size: 76px;
+        margin: 0;
+
         &--primary-color {
           color: #407f33;
         }

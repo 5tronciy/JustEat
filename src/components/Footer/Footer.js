@@ -5,7 +5,7 @@ import Logo from "../../assets/logo.svg";
 const Footer = () => {
   const year = new Date().getFullYear();
   return (
-    <div className="footer">
+    <footer role="contentinfo" className="footer">
       <div className="content">
         <div className="company">
           <div className="logo">
@@ -43,7 +43,7 @@ const Footer = () => {
       <div className="copyright">
         © Copyright {year} by JustEat. All right reserved.
       </div>
-    </div>
+    </footer>
   );
 };
 

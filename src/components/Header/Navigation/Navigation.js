@@ -7,7 +7,7 @@ import CartIcon from "./assets/shopping-cart.svg";
 
 const Navitagion = () => {
   return (
-    <div className="navigation__wrapper">
+    <nav role="navigation" className="navigation__wrapper">
       <div className="navigation">
         <div className="logo">
           <img src={Logo} alt="JustEat" />
@@ -34,7 +34,7 @@ const Navitagion = () => {
           </div>
         </div>
       </div>
-    </div>
+    </nav>
   );
 };
 
